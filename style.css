@@ -1,0 +1,37 @@
+body {
+    background-color:darkturquoise;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    flex-basis: 100%;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px grey;
+}
+
+.socialLinks {
+    flex-basis: 100%;
+}
+
+.sections {
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (max-width: 400px) {
+    .flex-grid {
+      display: block;
+    }
+  }
